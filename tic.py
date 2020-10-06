@@ -113,8 +113,6 @@ while True:
                    break
                 else:
                     turn='computer'
-
-
         else:
             move=getcomputermove(theboard,computerletter)
             makemove(theboard,computerletter,move)
